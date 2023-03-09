@@ -10,12 +10,16 @@
   - It is very much faster to launch a WSL terminal than start up a VM. 
   - much lesser memory requirement than a virtual machine. 
   - integration with windows is much easier with WSL.
-  
+
 * **Common scenarios for using WSL**: A few common situations or scenarios where a developer may want to use WSL include: 
   - A beginner who wants to learn coding on both Windows and Linux environments.
   - A professional developer who wants access to Linux and Windows tools.
   - Any organization that wants to operationalize a Continuous Integration and Continuous Delivery (CICD) workflow, testing updates on a local machine before deploying code updates to the cloud.
-  - Anyone who wants to use Docker for creating containers, Git for version control, GPU acceleration for Machine Learning, databases (like MySQL, PostgreSQL, MongoDB, Redis, SQLite), or have access to both Linux GUI apps and Windows at the same time.
+  - Anyone who wants to use Docker for creating containers, Git for version control, GPU acceleration for Machine Learning, databases (like MySQL, PostgreSQL, MongoDB, Redis, SQLite), or have access to both Linux GUI apps and Windows at the same time. 
+
+* There are two WSL versions are available i.e. WSL1 and WSL2. The comparison between two is shown in following table. 
+    <img src="compare.png" width="600" /> 
+      &nbsp;<br>
 
 
 # WSL Installation Steps 
